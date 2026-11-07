@@ -21,6 +21,10 @@ theme:
     - search.highlight
     - content.tabs.link        # 同名分頁（入門/進階）全站同步切換
     - content.code.copy
+    - navigation.instant      # 單頁切換不重載，手機上更快
+    - navigation.tracking     # 捲動時網址跟著標題更新，方便分享某一段
+    - search.share            # 可以分享搜尋結果網址
+    - content.tooltips
   palette:
     # 跟隨系統設定
     - media: "(prefers-color-scheme)"
@@ -78,6 +82,7 @@ extra_javascript:
 # 導覽列：新增頁面時，把它加到對應區段。
 nav:
   - 首頁: index.md
+  - 遇到問題查這裡: troubleshoot.md
   - 理論:
       - theory/index.md
       - 'T-01 專案、專案集與產品': theory/T-01-project-program-product.md
@@ -126,6 +131,7 @@ nav:
       - 'P-13 衝突處理模式': psychology/P-13-conflict-modes.md
       - 'P-14 團體迷思': psychology/P-14-groupthink.md
       - 'P-15 壞消息上報延遲': psychology/P-15-mum-effect.md
+      - 'P-16 新手 PM 的冒牌者感與討好傾向': psychology/P-16-rookie-pm-traps.md
   - 實作:
       - practice/index.md
       - 'W-01 寫一份專案章程': practice/W-01-project-charter.md
@@ -147,6 +153,8 @@ nav:
       - 'W-17 混合式專案節奏設計': practice/W-17-hybrid-cadence.md
       - 'W-18 主持復盤會議': practice/W-18-retrospective.md
       - 'W-19 結案檢查清單': practice/W-19-closure-checklist.md
+      - 'W-20 接手專案的前 30 天': practice/W-20-first-30-days.md
+      - 'W-21 會議紀錄與行動項目追蹤': practice/W-21-meeting-notes-action-items.md
   - 案例:
       - cases/index.md
       - 'C-01 Denver 機場行李系統': cases/C-01-denver-airport-baggage.md
@@ -187,6 +195,7 @@ nav:
       - '教案：範疇蔓延與變更控制': teach/lesson-scope-creep.md
       - '教案：利害關係人與影響力': teach/lesson-stakeholders.md
   - 參考:
+      - 一頁速查: cheatsheet.md
       - 對照矩陣: matrix.md
       - 術語表: glossary.md
       - 標籤索引: tags.md

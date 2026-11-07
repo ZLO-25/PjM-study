@@ -101,3 +101,4 @@ tags: [M8, PM自身心理]
 - [P-11 心理安全感](P-11-psychological-safety.md)
 - [P-13 衝突處理模式](P-13-conflict-modes.md)
 - [T-14 資源規劃與平衡](../theory/T-14-resource-planning.md)
+- [P-16 新手 PM 的冒牌者感與討好傾向](P-16-rookie-pm-traps.md)

@@ -99,3 +99,4 @@ tags: [M1, M4, M6, PM自身心理]
 - [T-12 估算方法](../theory/T-12-estimation.md)
 - [T-15 風險管理](../theory/T-15-risk-management.md)
 - [W-06 三點估算](../practice/W-06-three-point-estimation.md)
+- [P-16 新手 PM 的冒牌者感與討好傾向](P-16-rookie-pm-traps.md)

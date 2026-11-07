@@ -1,5 +1,5 @@
 <!-- numbering-master.md：編號總表（不放進網站，存進專案知識庫維持跨對話一致） -->
-# 編號總表 v1（2026-11-07）
+# 編號總表 v1.1（2026-11-07 更新：新增 P-16、W-20、W-21、情境索引與速查頁）
 
 規則：編號是固定身分證，不代表閱讀順序；一個編號全站只代表一件事。新增單元一律接在最大號之後，不重編。
 
@@ -56,6 +56,7 @@
 | P-13 | 衝突處理模式 | 團隊動力 | P-13-conflict-modes.md | T-20, C-12 |
 | P-14 | 團體迷思 | 團隊動力 | P-14-groupthink.md | T-24, C-01 |
 | P-15 | 壞消息上報延遲 | 團隊動力 | P-15-mum-effect.md | T-22, C-03, C-06 |
+| P-16 | 新手 PM 的冒牌者感與討好傾向 | PM 自身 | P-16-rookie-pm-traps.md | T-03, P-06, P-09, W-20, C-02, C-12 |
 
 ## 實作 W（docs/practice/）
 
@@ -80,6 +81,8 @@
 | W-17 | 混合式專案節奏設計 | M11 | W-17-hybrid-cadence.md | T-25, T-26, T-27 |
 | W-18 | 主持復盤會議 | M12 | W-18-retrospective.md | T-29, P-11 |
 | W-19 | 結案檢查清單 | M12 | W-19-closure-checklist.md | T-28 |
+| W-20 | 接手專案的前 30 天 | M0, M1, M2 | W-20-first-30-days.md | T-05, W-01, W-02, W-13, P-16 |
+| W-21 | 會議紀錄與行動項目追蹤 | M8, M9 | W-21-meeting-notes-action-items.md | T-19, T-21, W-09, W-14 |
 
 ## 案例 C（docs/cases/）
 
@@ -102,7 +105,7 @@
 
 - exercises/quiz-mXX-slug.md（測驗）、guide-slug.md（引導練習）、check-slug.md（自我檢核）
 - teach/lesson-slug.md（教案）
-- 固定頁：index.md、matrix.md、glossary.md、exercises/index.md、teach/index.md
+- 固定頁：index.md、troubleshoot.md（遇到問題查這裡，情境索引）、cheatsheet.md（一頁速查）、matrix.md、glossary.md、exercises/index.md、teach/index.md
 
 ## 備註
 

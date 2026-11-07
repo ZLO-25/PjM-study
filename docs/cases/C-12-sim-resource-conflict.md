@@ -68,6 +68,7 @@ tags: [案例, 模擬案例, M5, M8, 預測式, 混合式]
 - [P-13 衝突處理模式](../psychology/P-13-conflict-modes.md)：從競爭轉向合作。
 - [P-09 PM 的壓力與倦怠](../psychology/P-09-pm-stress.md)：夾在中間的成員的壓力。
 - [P-03 沒有職權的影響力](../psychology/P-03-influence-without-authority.md)：兩位 PM 都沒有權力直接分配他的時間。
+- [P-16 新手 PM 的冒牌者感與討好傾向](../psychology/P-16-rookie-pm-traps.md)：工程師「兩邊都答應」是典型的討好反應，代價由兩個專案一起付。
 
 ## 反事實推演
 

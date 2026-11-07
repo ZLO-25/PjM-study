@@ -99,3 +99,5 @@ tags: [M1, M8, 預測式, 敏捷, 混合式]
 - [P-12 團隊發展階段](../psychology/P-12-team-development-stages.md)
 - [W-01 寫一份專案章程](W-01-project-charter.md)
 - [W-12 填一張 RACI](W-12-raci-matrix.md)
+- [W-20 接手專案的前 30 天](W-20-first-30-days.md)
+- [W-21 會議紀錄與行動項目追蹤](W-21-meeting-notes-action-items.md)

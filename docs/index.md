@@ -29,8 +29,11 @@ hide:
 
 四層互相連結：讀一個理論單元時，頁尾會指向對應的心理單元、實作單元與案例；讀一個案例時，也能一路點回它用到的理論。
 
+!!! info "工作上遇到狀況，現在就要答案？"
+    去 [遇到問題查這裡](troubleshoot.md)：用你眼前的症狀（「有人要順便加功能」「廠商說要延」「會議開完沒人動」）找到第一步動作與對應單元。公式、燈號定義與常用句型在 [一頁速查](cheatsheet.md)。
+
 !!! tip "編號怎麼看"
-    `T-10` 是理論第 10 單元，`C-02` 是案例第 2 個。編號是固定的身分證，一個編號在全站只代表一件事；它**不是**閱讀順序。閱讀順序請看下面的學習地圖和兩條路線。
+    `T-10` 是理論第 10 單元，`C-02` 是案例第 2 個。編號是固定的身分證，一個編號在全站只代表一件事；它**不是**閱讀順序。閱讀順序請看下面的學習地圖和三條路線。
 
 ## 學習地圖
 
@@ -85,14 +88,14 @@ hide:
 |---|---|---|
 | 利害關係人心理 | [P-01](psychology/P-01-stakeholder-motives.md)、[P-02](psychology/P-02-resistance-to-change.md) | M2、M7、M12 |
 | 溝通、談判與影響力 | [P-03](psychology/P-03-influence-without-authority.md)、[P-04](psychology/P-04-principled-negotiation.md)、[P-05](psychology/P-05-managing-up.md)、[P-06](psychology/P-06-saying-no.md) | M0、M5、M9、M10 |
-| PM 自身心理 | [P-07](psychology/P-07-planning-fallacy.md)、[P-08](psychology/P-08-escalation-of-commitment.md)、[P-09](psychology/P-09-pm-stress.md)、[P-10](psychology/P-10-anchoring.md) | M1、M4、M5、M10 |
+| PM 自身心理 | [P-07](psychology/P-07-planning-fallacy.md)、[P-08](psychology/P-08-escalation-of-commitment.md)、[P-09](psychology/P-09-pm-stress.md)、[P-10](psychology/P-10-anchoring.md)、[P-16](psychology/P-16-rookie-pm-traps.md) | M0、M1、M4、M5、M10 |
 | 團隊動力 | [P-11](psychology/P-11-psychological-safety.md)、[P-12](psychology/P-12-team-development-stages.md)、[P-13](psychology/P-13-conflict-modes.md)、[P-14](psychology/P-14-groupthink.md)、[P-15](psychology/P-15-mum-effect.md) | M6、M8、M9、M12 |
 
 ## 模組總覽
 
 | 模組 | 理論 T | 實作 W | 代表案例 C |
 |---|---|---|---|
-| M0 PjM 是什麼 | [T-01](theory/T-01-project-program-product.md) [T-02](theory/T-02-pmbok7-principles-domains.md) [T-03](theory/T-03-pm-role-and-power.md) | — | [C-06](cases/C-06-nhs-npfit.md) |
+| M0 PjM 是什麼 | [T-01](theory/T-01-project-program-product.md) [T-02](theory/T-02-pmbok7-principles-domains.md) [T-03](theory/T-03-pm-role-and-power.md) | [W-20](practice/W-20-first-30-days.md) | [C-06](cases/C-06-nhs-npfit.md) |
 | M1 啟動與商業論證 | [T-04](theory/T-04-business-case.md) [T-05](theory/T-05-project-charter.md) | [W-01](practice/W-01-project-charter.md) | [C-05](cases/C-05-berlin-brandenburg-airport.md) |
 | M2 利害關係人 | [T-06](theory/T-06-stakeholder-analysis.md) [T-07](theory/T-07-stakeholder-engagement.md) | [W-02](practice/W-02-stakeholder-register.md) | [C-02](cases/C-02-healthcare-gov.md) [C-10](cases/C-10-sim-multi-site-buildout.md) |
 | M3 範疇與需求 | [T-08](theory/T-08-requirements.md) [T-09](theory/T-09-wbs-scope-baseline.md) [T-10](theory/T-10-scope-creep.md) | [W-03](practice/W-03-requirements-traceability.md) [W-04](practice/W-04-wbs.md) | [C-03](cases/C-03-fbi-virtual-case-file.md) |
@@ -100,7 +103,7 @@ hide:
 | M5 成本與資源 | [T-13](theory/T-13-cost-baseline-evm.md) [T-14](theory/T-14-resource-planning.md) | [W-07](practice/W-07-budget-tracking-evm.md) | [C-12](cases/C-12-sim-resource-conflict.md) |
 | M6 風險與議題 | [T-15](theory/T-15-risk-management.md) [T-16](theory/T-16-risk-issue-assumption.md) | [W-08](practice/W-08-risk-register.md) [W-09](practice/W-09-raid-log.md) | [C-01](cases/C-01-denver-airport-baggage.md) [C-11](cases/C-11-sim-vendor-delay.md) |
 | M7 品質與驗收 | [T-17](theory/T-17-quality-planning.md) [T-18](theory/T-18-acceptance-criteria.md) | [W-10](practice/W-10-test-acceptance-plan.md) [W-11](practice/W-11-cutover-rollback.md) | [C-02](cases/C-02-healthcare-gov.md) |
-| M8 團隊與衝突 | [T-19](theory/T-19-raci.md) [T-20](theory/T-20-matrix-organization.md) | [W-12](practice/W-12-raci-matrix.md) [W-13](practice/W-13-kickoff-meeting.md) | [C-12](cases/C-12-sim-resource-conflict.md) |
+| M8 團隊與衝突 | [T-19](theory/T-19-raci.md) [T-20](theory/T-20-matrix-organization.md) | [W-12](practice/W-12-raci-matrix.md) [W-13](practice/W-13-kickoff-meeting.md) [W-21](practice/W-21-meeting-notes-action-items.md) | [C-12](cases/C-12-sim-resource-conflict.md) |
 | M9 溝通與向上管理 | [T-21](theory/T-21-communication-planning.md) [T-22](theory/T-22-status-reporting.md) | [W-14](practice/W-14-status-report.md) [W-15](practice/W-15-escalation.md) | [C-06](cases/C-06-nhs-npfit.md) |
 | M10 變更控制與治理 | [T-23](theory/T-23-change-control.md) [T-24](theory/T-24-governance-stage-gates.md) | [W-16](practice/W-16-change-request.md) | [C-01](cases/C-01-denver-airport-baggage.md) [C-03](cases/C-03-fbi-virtual-case-file.md) |
 | M11 敏捷與混合式 | [T-25](theory/T-25-agile-scrum.md) [T-26](theory/T-26-hybrid-tailoring.md) [T-27](theory/T-27-kanban-flow.md) | [W-17](practice/W-17-hybrid-cadence.md) | [C-09](cases/C-09-sim-legacy-replacement.md) |
@@ -122,7 +125,32 @@ hide:
     - **三題都是「是」**：走**老手路線**，並且直接跳到最後一步「開始教人」。教別人是檢驗自己懂不懂最快的方法。
     - 第 3 題是在看你對「沒有職權的影響力」有沒有體感。答「否」的人，不論走哪條路線，都建議早點讀 [P-03](psychology/P-03-influence-without-authority.md)。
 
-## 兩條建議路線
+## 三條建議路線
+
+=== "上工前速讀"
+
+    **適合：** 下週就要上任 PjM，只有兩三個晚上可以讀。
+    **原則：** 先學會「不要犯新手最貴的錯」，框架之後再補。總共 10 頁，每頁約 10 分鐘。
+
+    ```text
+     晚上 1：角色與心態        晚上 2：最常踩的雷
+     T-03 PM 的權力來源        T-10 範疇蔓延
+     P-03 沒有職權的影響力     P-06 說不與期望管理
+     P-16 新手 PM 的心理陷阱   P-15 壞消息上報延遲
+     W-20 接手的前 30 天       T-22 狀態報告與燈號
+
+     晚上 3：第一週就要用的工具
+     W-21 會議紀錄與行動項目   W-14 週報
+     然後把「遇到問題查這裡」加入書籤
+    ```
+
+    | 晚上 | 讀這些 | 讀完要能回答 |
+    |---|---|---|
+    | 1 | [T-03](theory/T-03-pm-role-and-power.md)、[P-03](psychology/P-03-influence-without-authority.md)、[P-16](psychology/P-16-rookie-pm-traps.md)、[W-20](practice/W-20-first-30-days.md) | PM 沒有職權，那我靠什麼讓人配合？前 30 天我要做哪三件事？ |
+    | 2 | [T-10](theory/T-10-scope-creep.md)、[P-06](psychology/P-06-saying-no.md)、[P-15](psychology/P-15-mum-effect.md)、[T-22](theory/T-22-status-reporting.md) | 有人要「順便加一個」時我第一句話說什麼？黃燈和紅燈的差別是什麼？ |
+    | 3 | [W-21](practice/W-21-meeting-notes-action-items.md)、[W-14](practice/W-14-status-report.md)、[一頁速查](cheatsheet.md) | 一場會議要留下哪三樣東西？週報的第一行寫什麼？ |
+
+    讀完後，請把 [遇到問題查這裡](troubleshoot.md) 加入書籤。上任後遇到狀況，先查那一頁，再回來走新手路線補框架。
 
 === "新手路線"
 
@@ -130,20 +158,24 @@ hide:
     **節奏：** 8 週，每週挑一個段落讀完、做完該週的練習。
 
     ```text
-     週 1   週 2   週 3   週 4   週 5   週 6   週 7   週 8
-     M0 ─► M1-2 ─► M3 ─► M4-5 ─► M6-7 ─► M8-9 ─► M10-11 ─► M12
-     打地基 啟動   範疇   時程   風險   團隊   變更    收尾
-                                        溝通   敏捷
+     週 1  M0       打地基
+     週 2  M1–M2    啟動、利害關係人
+     週 3  M3       範疇與需求
+     週 4  M4–M5    時程、成本
+     週 5  M6–M7    風險、品質
+     週 6  M8–M9    團隊、溝通
+     週 7  M10–M11  變更、敏捷
+     週 8  M12      收尾與復盤
     ```
 
     | 週 | 先讀（理論） | 再讀（心理） | 動手做（實作） | 看案例 |
     |---|---|---|---|---|
-    | 1 | [T-01](theory/T-01-project-program-product.md)、[T-03](theory/T-03-pm-role-and-power.md) | [P-03](psychology/P-03-influence-without-authority.md) | — | [C-01](cases/C-01-denver-airport-baggage.md) |
+    | 1 | [T-01](theory/T-01-project-program-product.md)、[T-03](theory/T-03-pm-role-and-power.md) | [P-03](psychology/P-03-influence-without-authority.md)、[P-16](psychology/P-16-rookie-pm-traps.md) | [W-20](practice/W-20-first-30-days.md) | [C-01](cases/C-01-denver-airport-baggage.md) |
     | 2 | [T-04](theory/T-04-business-case.md)、[T-05](theory/T-05-project-charter.md)、[T-06](theory/T-06-stakeholder-analysis.md) | [P-01](psychology/P-01-stakeholder-motives.md) | [W-01](practice/W-01-project-charter.md)、[W-02](practice/W-02-stakeholder-register.md) | [C-02](cases/C-02-healthcare-gov.md) |
     | 3 | [T-08](theory/T-08-requirements.md)、[T-09](theory/T-09-wbs-scope-baseline.md)、[T-10](theory/T-10-scope-creep.md) | [P-06](psychology/P-06-saying-no.md) | [W-04](practice/W-04-wbs.md) | [C-03](cases/C-03-fbi-virtual-case-file.md) |
     | 4 | [T-11](theory/T-11-critical-path.md)、[T-12](theory/T-12-estimation.md)、[T-13](theory/T-13-cost-baseline-evm.md) | [P-07](psychology/P-07-planning-fallacy.md) | [W-05](practice/W-05-schedule-critical-path.md)、[W-06](practice/W-06-three-point-estimation.md) | [C-04](cases/C-04-sydney-opera-house.md) |
     | 5 | [T-15](theory/T-15-risk-management.md)、[T-16](theory/T-16-risk-issue-assumption.md)、[T-18](theory/T-18-acceptance-criteria.md) | [P-14](psychology/P-14-groupthink.md) | [W-08](practice/W-08-risk-register.md)、[W-10](practice/W-10-test-acceptance-plan.md) | [C-07](cases/C-07-sim-datacenter-migration.md) |
-    | 6 | [T-19](theory/T-19-raci.md)、[T-22](theory/T-22-status-reporting.md) | [P-11](psychology/P-11-psychological-safety.md)、[P-12](psychology/P-12-team-development-stages.md)、[P-15](psychology/P-15-mum-effect.md) | [W-12](practice/W-12-raci-matrix.md)、[W-14](practice/W-14-status-report.md) | [C-12](cases/C-12-sim-resource-conflict.md) |
+    | 6 | [T-19](theory/T-19-raci.md)、[T-22](theory/T-22-status-reporting.md) | [P-11](psychology/P-11-psychological-safety.md)、[P-12](psychology/P-12-team-development-stages.md)、[P-15](psychology/P-15-mum-effect.md) | [W-12](practice/W-12-raci-matrix.md)、[W-14](practice/W-14-status-report.md)、[W-21](practice/W-21-meeting-notes-action-items.md) | [C-12](cases/C-12-sim-resource-conflict.md) |
     | 7 | [T-23](theory/T-23-change-control.md)、[T-25](theory/T-25-agile-scrum.md)、[T-26](theory/T-26-hybrid-tailoring.md) | [P-08](psychology/P-08-escalation-of-commitment.md) | [W-16](practice/W-16-change-request.md) | [C-09](cases/C-09-sim-legacy-replacement.md) |
     | 8 | [T-28](theory/T-28-closure-handover.md)、[T-29](theory/T-29-lessons-learned.md) | — | [W-18](practice/W-18-retrospective.md) | [C-06](cases/C-06-nhs-npfit.md)（綜合案例） |
 
