@@ -100,3 +100,5 @@ tags: [M0, 預測式, 敏捷, 混合式]
 - [T-20 矩陣式組織](T-20-matrix-organization.md)
 - [P-03 沒有職權的影響力](../psychology/P-03-influence-without-authority.md)
 - [P-05 向上管理](../psychology/P-05-managing-up.md)
+- [P-16 新手 PM 的冒牌者感與討好傾向](../psychology/P-16-rookie-pm-traps.md)
+- [W-20 接手專案的前 30 天](../practice/W-20-first-30-days.md)

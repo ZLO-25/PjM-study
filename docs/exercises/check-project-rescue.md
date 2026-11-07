@@ -79,3 +79,4 @@ tags: [M9, M10, 自我檢核]
 - [T-22 狀態報告與紅黃綠燈](../theory/T-22-status-reporting.md)
 - [P-15 壞消息上報延遲](../psychology/P-15-mum-effect.md)
 - [W-07 預算追蹤與 EVM 試算](../practice/W-07-budget-tracking-evm.md)
+- [W-20 接手專案的前 30 天](../practice/W-20-first-30-days.md)

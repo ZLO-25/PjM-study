@@ -144,4 +144,6 @@ title: 中英術語表
 | 衝突處理模式 | Conflict Modes (TKI) | 競爭、合作、妥協、遷就、迴避 | [P-13](psychology/P-13-conflict-modes.md) |
 | 團體迷思 | Groupthink | 為了和諧而壓抑異見 | [P-14](psychology/P-14-groupthink.md) |
 | 緘默效應 | Mum Effect | 不願意傳遞壞消息 | [P-15](psychology/P-15-mum-effect.md) |
+| 冒牌者現象 | Impostor Phenomenon | 能力足夠卻覺得自己不配、隨時會被看穿 | [P-16](psychology/P-16-rookie-pm-traps.md) |
+| 討好傾向 | People-Pleasing | 為了不讓人失望而什麼都答應 | [P-16](psychology/P-16-rookie-pm-traps.md) |
 | 不究責 | Blameless | 對事不對人的檢討方式 | [T-29](theory/T-29-lessons-learned.md) |

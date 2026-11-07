@@ -4,26 +4,40 @@ title: 實作 (W)
 
 # 實作 (W)
 
-**實作單元提供範本、步驟與範例，讓你明天上班就能用。**
+**實作單元提供範本、步驟與範例，讓你明天上班就能用。不知道該用哪一個？看「什麼時候用」那一欄，或直接去 [遇到問題查這裡](../troubleshoot.md)。**
 
-| 單元 | 模組 |
-|---|---|
-| [W-01 寫一份專案章程](W-01-project-charter.md) | M1 |
-| [W-02 利害關係人登錄表與方格](W-02-stakeholder-register.md) | M2 |
-| [W-03 需求追溯矩陣](W-03-requirements-traceability.md) | M3、M7 |
-| [W-04 拆解 WBS](W-04-wbs.md) | M3 |
-| [W-05 排時程、找要徑](W-05-schedule-critical-path.md) | M4 |
-| [W-06 三點估算](W-06-three-point-estimation.md) | M4、M5 |
-| [W-07 預算追蹤與 EVM 試算](W-07-budget-tracking-evm.md) | M5 |
-| [W-08 風險登錄表](W-08-risk-register.md) | M6 |
-| [W-09 RAID 日誌](W-09-raid-log.md) | M6 |
-| [W-10 測試與驗收計畫](W-10-test-acceptance-plan.md) | M7 |
-| [W-11 割接計畫與回退方案](W-11-cutover-rollback.md) | M7、M6 |
-| [W-12 填一張 RACI](W-12-raci-matrix.md) | M8 |
-| [W-13 專案啟動會議](W-13-kickoff-meeting.md) | M1、M8 |
-| [W-14 週報與狀態報告](W-14-status-report.md) | M9 |
-| [W-15 升級上報信](W-15-escalation.md) | M9、M6 |
-| [W-16 變更請求單](W-16-change-request.md) | M10、M3 |
-| [W-17 混合式專案節奏設計](W-17-hybrid-cadence.md) | M11 |
-| [W-18 主持復盤會議](W-18-retrospective.md) | M12 |
-| [W-19 結案檢查清單](W-19-closure-checklist.md) | M12 |
+```text
+ 一個專案會用到的工具，大致照時間順序
+
+ 啟動      W-20 → W-01 → W-02 → W-13
+ 規劃      W-03 → W-04 → W-05 → W-06 → W-07 → W-08
+ 執行追蹤  W-09 → W-21 → W-14 → W-12
+ 出狀況時  W-15 → W-16
+ 交付      W-10 → W-11
+ 收尾      W-18 → W-19
+ 做法設計  W-17（任何階段都可能用到）
+```
+
+| 單元 | 什麼時候用 | 模組 |
+|---|---|---|
+| [W-20 接手專案的前 30 天](W-20-first-30-days.md) | 剛被指派新專案，或半路接手別人的專案 | M0、M1、M2 |
+| [W-01 寫一份專案章程](W-01-project-charter.md) | 專案要開始了，但目標、範疇、誰負責還沒有白紙黑字 | M1 |
+| [W-02 利害關係人登錄表與方格](W-02-stakeholder-register.md) | 不知道該找誰、誰說了算、誰會反對 | M2 |
+| [W-03 需求追溯矩陣](W-03-requirements-traceability.md) | 需求很多、來源很多，怕做了沒人要的或漏掉有人要的 | M3、M7 |
+| [W-04 拆解 WBS](W-04-wbs.md) | 要把一個大目標拆成可以分派、可以估算的工作 | M3 |
+| [W-05 排時程、找要徑](W-05-schedule-critical-path.md) | 要知道哪些工作延誤會延誤整個專案 | M4 |
+| [W-06 三點估算](W-06-three-point-estimation.md) | 被問「要多久」，而你只有一個不太有把握的數字 | M4、M5 |
+| [W-07 預算追蹤與 EVM 試算](W-07-budget-tracking-evm.md) | 要回答「照這樣下去會超支多少」 | M5 |
+| [W-08 風險登錄表](W-08-risk-register.md) | 總覺得會出事，想把它寫下來並且有人負責看著 | M6 |
+| [W-09 RAID 日誌](W-09-raid-log.md) | 風險、假設、議題、相依太多，需要一張表一起追 | M6 |
+| [W-10 測試與驗收計畫](W-10-test-acceptance-plan.md) | 要讓「做完」有一個大家都同意的定義 | M7 |
+| [W-11 割接計畫與回退方案](W-11-cutover-rollback.md) | 要在一個窗口內從舊環境切到新環境 | M7、M6 |
+| [W-12 填一張 RACI](W-12-raci-matrix.md) | 兩個部門互推責任，或沒人知道誰該做決定 | M8 |
+| [W-13 專案啟動會議](W-13-kickoff-meeting.md) | 要讓所有人聽到同一個版本的目標與角色 | M1、M8 |
+| [W-21 會議紀錄與行動項目追蹤](W-21-meeting-notes-action-items.md) | 會議開完沒人動，或承諾過的事沒人記得 | M8、M9 |
+| [W-14 週報與狀態報告](W-14-status-report.md) | 要定期讓主管知道專案健不健康、需要他做什麼 | M9 |
+| [W-15 升級上報信](W-15-escalation.md) | 問題超出你的權限，需要主管決定或出面 | M9、M6 |
+| [W-16 變更請求單](W-16-change-request.md) | 有人要改範疇、時程或預算 | M10、M3 |
+| [W-17 混合式專案節奏設計](W-17-hybrid-cadence.md) | 專案裡有些部分適合先規劃、有些要邊做邊調 | M11 |
+| [W-18 主持復盤會議](W-18-retrospective.md) | 一個階段或專案結束，想讓團隊真的學到東西 | M12 |
+| [W-19 結案檢查清單](W-19-closure-checklist.md) | 專案「做完了」但一直收不了尾 | M12 |

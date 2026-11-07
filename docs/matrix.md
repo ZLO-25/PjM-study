@@ -73,6 +73,7 @@ title: 理論 × 案例對照矩陣
 | [P-13 衝突處理模式](psychology/P-13-conflict-modes.md) |  |  |  | ● |  |  |  |  |  | ● |  | ● |
 | [P-14 團體迷思](psychology/P-14-groupthink.md) | ● |  | ● |  |  |  |  |  |  |  |  |  |
 | [P-15 壞消息上報延遲](psychology/P-15-mum-effect.md) |  | ● | ● |  | ● | ● |  |  |  |  | ● |  |
+| [P-16 新手 PM 的冒牌者感與討好傾向](psychology/P-16-rookie-pm-traps.md) |  | ● |  |  |  |  |  |  |  |  |  | ● |
 
 ## 依案例查詢
 
@@ -81,7 +82,7 @@ title: 理論 × 案例對照矩陣
     - 心理：[P-07](psychology/P-07-planning-fallacy.md)、[P-08](psychology/P-08-escalation-of-commitment.md)、[P-14](psychology/P-14-groupthink.md)
 - **[C-02 HealthCare.gov 上線](cases/C-02-healthcare-gov.md)**
     - 理論：[T-02](theory/T-02-pmbok7-principles-domains.md)、[T-06](theory/T-06-stakeholder-analysis.md)、[T-10](theory/T-10-scope-creep.md)、[T-17](theory/T-17-quality-planning.md)、[T-19](theory/T-19-raci.md)
-    - 心理：[P-01](psychology/P-01-stakeholder-motives.md)、[P-06](psychology/P-06-saying-no.md)、[P-15](psychology/P-15-mum-effect.md)
+    - 心理：[P-01](psychology/P-01-stakeholder-motives.md)、[P-06](psychology/P-06-saying-no.md)、[P-15](psychology/P-15-mum-effect.md)、[P-16](psychology/P-16-rookie-pm-traps.md)
 - **[C-03 FBI Virtual Case File](cases/C-03-fbi-virtual-case-file.md)**
     - 理論：[T-05](theory/T-05-project-charter.md)、[T-08](theory/T-08-requirements.md)、[T-10](theory/T-10-scope-creep.md)、[T-24](theory/T-24-governance-stage-gates.md)
     - 心理：[P-08](psychology/P-08-escalation-of-commitment.md)、[P-14](psychology/P-14-groupthink.md)、[P-15](psychology/P-15-mum-effect.md)
@@ -111,7 +112,7 @@ title: 理論 × 案例對照矩陣
     - 心理：[P-04](psychology/P-04-principled-negotiation.md)、[P-07](psychology/P-07-planning-fallacy.md)、[P-15](psychology/P-15-mum-effect.md)
 - **[C-12【模擬】跨部門資源爭奪](cases/C-12-sim-resource-conflict.md)**
     - 理論：[T-03](theory/T-03-pm-role-and-power.md)、[T-11](theory/T-11-critical-path.md)、[T-14](theory/T-14-resource-planning.md)、[T-20](theory/T-20-matrix-organization.md)、[T-27](theory/T-27-kanban-flow.md)
-    - 心理：[P-03](psychology/P-03-influence-without-authority.md)、[P-04](psychology/P-04-principled-negotiation.md)、[P-09](psychology/P-09-pm-stress.md)、[P-13](psychology/P-13-conflict-modes.md)
+    - 心理：[P-03](psychology/P-03-influence-without-authority.md)、[P-04](psychology/P-04-principled-negotiation.md)、[P-09](psychology/P-09-pm-stress.md)、[P-13](psychology/P-13-conflict-modes.md)、[P-16](psychology/P-16-rookie-pm-traps.md)
 
 ## 相關頁面
 

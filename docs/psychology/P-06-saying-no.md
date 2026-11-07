@@ -103,3 +103,4 @@ tags: [M3, M10, 溝通談判影響力]
 - [T-10 範疇蔓延](../theory/T-10-scope-creep.md)
 - [T-23 整合變更控制](../theory/T-23-change-control.md)
 - [W-16 變更請求單](../practice/W-16-change-request.md)
+- [P-16 新手 PM 的冒牌者感與討好傾向](P-16-rookie-pm-traps.md)

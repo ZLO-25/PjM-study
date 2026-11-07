@@ -66,6 +66,7 @@ tags: [案例, 公開案例, M2, M7, M8, 預測式, 敏捷]
 - [P-01 利害關係人的動機與恐懼](../psychology/P-01-stakeholder-motives.md)：政治時程的壓力影響技術決策。
 - [P-15 壞消息上報延遲](../psychology/P-15-mum-effect.md)：風險資訊是否被充分傳遞給決策者（推論）。
 - [P-06 說不與期望管理](../psychology/P-06-saying-no.md)：在固定日期下，誰能說「還沒準備好」。
+- [P-16 新手 PM 的冒牌者感與討好傾向](../psychology/P-16-rookie-pm-traps.md)：在高層壓力下，沒有人願意成為第一個說「準備不足」的人（推論）。
 
 ## 反事實推演
 

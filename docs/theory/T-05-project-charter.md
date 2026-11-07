@@ -90,3 +90,4 @@ tags: [M1, 預測式, 混合式]
 - [T-06 利害關係人識別與分析](T-06-stakeholder-analysis.md)
 - [W-01 寫一份專案章程](../practice/W-01-project-charter.md)
 - [W-13 專案啟動會議](../practice/W-13-kickoff-meeting.md)
+- [W-20 接手專案的前 30 天](../practice/W-20-first-30-days.md)
