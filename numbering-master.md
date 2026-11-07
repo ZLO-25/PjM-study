@@ -103,8 +103,8 @@
 
 ## 練習與教案（不編號，用模組命名）
 
-- exercises/quiz-mXX-slug.md（測驗）、guide-slug.md（引導練習）、check-slug.md（自我檢核）
-- teach/lesson-slug.md（教案）
+- exercises/quiz-mXX-slug.md（測驗）、guide-slug.md（引導練習：scope-creep、resistant-stakeholder、bad-news、borrow-resources）、check-slug.md（自我檢核）
+- teach/lesson-slug.md（教案：scope-creep、stakeholders、risk-cutover、reporting-managing-up、first-week-pm）
 - 固定頁：index.md、troubleshoot.md（遇到問題查這裡，情境索引）、cheatsheet.md（一頁速查）、matrix.md、glossary.md、exercises/index.md、teach/index.md
 
 ## 備註

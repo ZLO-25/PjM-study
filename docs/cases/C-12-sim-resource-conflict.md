@@ -105,3 +105,4 @@ tags: [案例, 模擬案例, M5, M8, 預測式, 混合式]
 - [T-14 資源規劃與平衡](../theory/T-14-resource-planning.md)
 - [T-20 矩陣式組織](../theory/T-20-matrix-organization.md)
 - [P-13 衝突處理模式](../psychology/P-13-conflict-modes.md)
+- [引導練習：跟職能經理借人](../exercises/guide-borrow-resources.md)

@@ -33,6 +33,7 @@ title: 練習總覽
 - [如何回應「順便加一個功能」](guide-scope-creep.md)（M3、M10）
 - [如何處理一個抗拒的利害關係人](guide-resistant-stakeholder.md)（M2）
 - [如何回報一個壞消息](guide-bad-news.md)（M9）
+- [跟職能經理借人](guide-borrow-resources.md)（M5、M8）
 
 ## 自我檢核
 

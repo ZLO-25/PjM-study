@@ -87,3 +87,4 @@ tags: [M5, 預測式, 混合式]
 - [T-11 時程網路與要徑](T-11-critical-path.md)
 - [T-20 矩陣式組織](T-20-matrix-organization.md)
 - [P-04 原則式談判與 BATNA](../psychology/P-04-principled-negotiation.md)
+- [引導練習：跟職能經理借人](../exercises/guide-borrow-resources.md)

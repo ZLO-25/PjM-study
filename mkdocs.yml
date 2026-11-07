@@ -184,6 +184,7 @@ nav:
           - '引導練習：如何回報一個壞消息': exercises/guide-bad-news.md
           - '引導練習：如何處理一個抗拒的利害關係人': exercises/guide-resistant-stakeholder.md
           - '引導練習：如何回應「順便加一個功能」': exercises/guide-scope-creep.md
+          - '引導練習：跟職能經理借人': exercises/guide-borrow-resources.md
       - 自我檢核:
           - '自我檢核：割接前的風險審查': exercises/check-cutover-risk.md
           - '自我檢核：為混合式專案設計做法': exercises/check-hybrid-design.md
@@ -194,6 +195,7 @@ nav:
       - '教案：風險管理與割接': teach/lesson-risk-cutover.md
       - '教案：範疇蔓延與變更控制': teach/lesson-scope-creep.md
       - '教案：利害關係人與影響力': teach/lesson-stakeholders.md
+      - '教案：新任 PM 上工前速讀': teach/lesson-first-week-pm.md
   - 參考:
       - 一頁速查: cheatsheet.md
       - 對照矩陣: matrix.md
