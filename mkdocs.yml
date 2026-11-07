@@ -1,0 +1,192 @@
+# mkdocs.yml
+site_name: PjM 學習互動手冊
+site_description: 從理論、心理、實作、案例四個角度，系統化學習專案管理 (Project Management)
+# GitHub Pages 網址
+site_url: https://zlo-25.github.io/PjM-study/
+repo_url: https://github.com/ZLO-25/PjM-study
+repo_name: ZLO-25/PjM-study
+docs_dir: docs
+
+theme:
+  name: material
+  language: zh-TW
+  features:
+    - navigation.tabs          # 頂部分頁：理論 / 心理 / 實作 / 案例
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top           # 回到頂端按鈕
+    - navigation.footer        # 頁尾上一頁 / 下一頁
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link        # 同名分頁（入門/進階）全站同步切換
+    - content.code.copy
+  palette:
+    # 跟隨系統設定
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: 切換為淺色模式
+    # 淺色
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切換為深色模式
+    # 深色
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 跟隨系統設定
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\s​\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - tags
+
+markdown_extensions:
+  - admonition               # !!! tip / !!! warning
+  - pymdownx.details         # ??? 可折疊區塊（答案、提示）
+  - pymdownx.superfences     # 區塊內可再放程式碼區塊
+  - pymdownx.tabbed:         # === "入門" / === "進階"
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - def_list
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/ascii-align.js
+
+# 導覽列：新增頁面時，把它加到對應區段。
+nav:
+  - 首頁: index.md
+  - 理論:
+      - theory/index.md
+      - 'T-01 專案、專案集與產品': theory/T-01-project-program-product.md
+      - 'T-02 PMBOK 7 原則與績效領域': theory/T-02-pmbok7-principles-domains.md
+      - 'T-03 PM 的角色與權力來源': theory/T-03-pm-role-and-power.md
+      - 'T-04 商業論證與效益': theory/T-04-business-case.md
+      - 'T-05 專案章程與啟動': theory/T-05-project-charter.md
+      - 'T-06 利害關係人識別與分析': theory/T-06-stakeholder-analysis.md
+      - 'T-07 利害關係人參與規劃': theory/T-07-stakeholder-engagement.md
+      - 'T-08 需求蒐集與定義': theory/T-08-requirements.md
+      - 'T-09 WBS 與範疇基準': theory/T-09-wbs-scope-baseline.md
+      - 'T-10 範疇蔓延': theory/T-10-scope-creep.md
+      - 'T-11 時程網路與要徑': theory/T-11-critical-path.md
+      - 'T-12 估算方法': theory/T-12-estimation.md
+      - 'T-13 成本基準與實獲值': theory/T-13-cost-baseline-evm.md
+      - 'T-14 資源規劃與平衡': theory/T-14-resource-planning.md
+      - 'T-15 風險管理': theory/T-15-risk-management.md
+      - 'T-16 風險、議題與假設': theory/T-16-risk-issue-assumption.md
+      - 'T-17 品質規劃與品質成本': theory/T-17-quality-planning.md
+      - 'T-18 驗收標準與完成定義': theory/T-18-acceptance-criteria.md
+      - 'T-19 責任分派與 RACI': theory/T-19-raci.md
+      - 'T-20 矩陣式組織': theory/T-20-matrix-organization.md
+      - 'T-21 溝通規劃': theory/T-21-communication-planning.md
+      - 'T-22 狀態報告與紅黃綠燈': theory/T-22-status-reporting.md
+      - 'T-23 整合變更控制': theory/T-23-change-control.md
+      - 'T-24 治理與階段關卡': theory/T-24-governance-stage-gates.md
+      - 'T-25 敏捷價值與 Scrum': theory/T-25-agile-scrum.md
+      - 'T-26 混合式與裁適': theory/T-26-hybrid-tailoring.md
+      - 'T-27 看板與流動': theory/T-27-kanban-flow.md
+      - 'T-28 結案與移交': theory/T-28-closure-handover.md
+      - 'T-29 經驗回顧與復盤': theory/T-29-lessons-learned.md
+  - 心理:
+      - psychology/index.md
+      - 'P-01 利害關係人的動機與恐懼': psychology/P-01-stakeholder-motives.md
+      - 'P-02 變革抗拒': psychology/P-02-resistance-to-change.md
+      - 'P-03 沒有職權的影響力': psychology/P-03-influence-without-authority.md
+      - 'P-04 原則式談判與 BATNA': psychology/P-04-principled-negotiation.md
+      - 'P-05 向上管理': psychology/P-05-managing-up.md
+      - 'P-06 說不與期望管理': psychology/P-06-saying-no.md
+      - 'P-07 規劃謬誤與樂觀偏誤': psychology/P-07-planning-fallacy.md
+      - 'P-08 沉沒成本與承諾升級': psychology/P-08-escalation-of-commitment.md
+      - 'P-09 PM 的壓力與倦怠': psychology/P-09-pm-stress.md
+      - 'P-10 錨定效應': psychology/P-10-anchoring.md
+      - 'P-11 心理安全感': psychology/P-11-psychological-safety.md
+      - 'P-12 團隊發展階段': psychology/P-12-team-development-stages.md
+      - 'P-13 衝突處理模式': psychology/P-13-conflict-modes.md
+      - 'P-14 團體迷思': psychology/P-14-groupthink.md
+      - 'P-15 壞消息上報延遲': psychology/P-15-mum-effect.md
+  - 實作:
+      - practice/index.md
+      - 'W-01 寫一份專案章程': practice/W-01-project-charter.md
+      - 'W-02 利害關係人登錄表與方格': practice/W-02-stakeholder-register.md
+      - 'W-03 需求追溯矩陣': practice/W-03-requirements-traceability.md
+      - 'W-04 拆解 WBS': practice/W-04-wbs.md
+      - 'W-05 排時程、找要徑': practice/W-05-schedule-critical-path.md
+      - 'W-06 三點估算': practice/W-06-three-point-estimation.md
+      - 'W-07 預算追蹤與 EVM 試算': practice/W-07-budget-tracking-evm.md
+      - 'W-08 風險登錄表': practice/W-08-risk-register.md
+      - 'W-09 RAID 日誌': practice/W-09-raid-log.md
+      - 'W-10 測試與驗收計畫': practice/W-10-test-acceptance-plan.md
+      - 'W-11 割接計畫與回退方案': practice/W-11-cutover-rollback.md
+      - 'W-12 填一張 RACI': practice/W-12-raci-matrix.md
+      - 'W-13 專案啟動會議': practice/W-13-kickoff-meeting.md
+      - 'W-14 週報與狀態報告': practice/W-14-status-report.md
+      - 'W-15 升級上報信': practice/W-15-escalation.md
+      - 'W-16 變更請求單': practice/W-16-change-request.md
+      - 'W-17 混合式專案節奏設計': practice/W-17-hybrid-cadence.md
+      - 'W-18 主持復盤會議': practice/W-18-retrospective.md
+      - 'W-19 結案檢查清單': practice/W-19-closure-checklist.md
+  - 案例:
+      - cases/index.md
+      - 'C-01 Denver 機場行李系統': cases/C-01-denver-airport-baggage.md
+      - 'C-02 HealthCare.gov 上線': cases/C-02-healthcare-gov.md
+      - 'C-03 FBI Virtual Case File': cases/C-03-fbi-virtual-case-file.md
+      - 'C-04 Sydney 歌劇院': cases/C-04-sydney-opera-house.md
+      - 'C-05 Berlin Brandenburg 機場': cases/C-05-berlin-brandenburg-airport.md
+      - 'C-06 英國 NHS NPfIT': cases/C-06-nhs-npfit.md
+      - 'C-07【模擬】資料中心遷移': cases/C-07-sim-datacenter-migration.md
+      - 'C-08【模擬】核心網路割接': cases/C-08-sim-network-cutover.md
+      - 'C-09【模擬】老舊系統汰換': cases/C-09-sim-legacy-replacement.md
+      - 'C-10【模擬】跨廠區建置': cases/C-10-sim-multi-site-buildout.md
+      - 'C-11【模擬】供應商交期延誤': cases/C-11-sim-vendor-delay.md
+      - 'C-12【模擬】跨部門資源爭奪': cases/C-12-sim-resource-conflict.md
+  - 練習:
+      - exercises/index.md
+      - 測驗:
+          - '測驗 M0：PjM 是什麼': exercises/quiz-m00-pjm-basics.md
+          - '測驗 M1–M2：啟動與利害關係人': exercises/quiz-m01-m02-initiation-stakeholders.md
+          - '測驗 M3：範疇與需求': exercises/quiz-m03-scope.md
+          - '測驗 M4–M5：時程、成本與資源': exercises/quiz-m04-m05-schedule-cost.md
+          - '測驗 M6–M7：風險、品質與驗收': exercises/quiz-m06-m07-risk-quality.md
+          - '測驗 M8–M9：團隊與溝通': exercises/quiz-m08-m09-team-communication.md
+          - '測驗 M10–M11：變更、治理與敏捷': exercises/quiz-m10-m11-change-agile.md
+          - '測驗 M12：結案與復盤': exercises/quiz-m12-closure.md
+      - 引導練習:
+          - '引導練習：如何回報一個壞消息': exercises/guide-bad-news.md
+          - '引導練習：如何處理一個抗拒的利害關係人': exercises/guide-resistant-stakeholder.md
+          - '引導練習：如何回應「順便加一個功能」': exercises/guide-scope-creep.md
+      - 自我檢核:
+          - '自我檢核：割接前的風險審查': exercises/check-cutover-risk.md
+          - '自我檢核：為混合式專案設計做法': exercises/check-hybrid-design.md
+          - '自我檢核：接手一個出狀況的專案': exercises/check-project-rescue.md
+  - 教學:
+      - teach/index.md
+      - '教案：狀態報告與向上管理': teach/lesson-reporting-managing-up.md
+      - '教案：風險管理與割接': teach/lesson-risk-cutover.md
+      - '教案：範疇蔓延與變更控制': teach/lesson-scope-creep.md
+      - '教案：利害關係人與影響力': teach/lesson-stakeholders.md
+  - 參考:
+      - 對照矩陣: matrix.md
+      - 術語表: glossary.md
+      - 標籤索引: tags.md

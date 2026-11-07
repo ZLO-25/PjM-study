@@ -1,0 +1,11 @@
+# mkdocs-offline.yml
+# 離線版：建置出來的網站可以直接雙擊 index.html 開啟（不需要伺服器），搜尋也能用。
+# 用法：mkdocs build -f mkdocs-offline.yml -d site-offline
+INHERIT: mkdocs.yml
+use_directory_urls: false
+plugins:
+  - search:
+      lang: en
+      separator: '[\s​\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - tags
+  - offline
