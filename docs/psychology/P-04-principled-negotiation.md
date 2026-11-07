@@ -96,3 +96,4 @@ tags: [M5, M8, 溝通談判影響力]
 - [P-03 沒有職權的影響力](P-03-influence-without-authority.md)
 - [P-13 衝突處理模式](P-13-conflict-modes.md)
 - [T-14 資源規劃與平衡](../theory/T-14-resource-planning.md)
+- [引導練習：跟職能經理借人](../exercises/guide-borrow-resources.md)

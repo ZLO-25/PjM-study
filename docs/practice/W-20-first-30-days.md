@@ -127,3 +127,4 @@ tags: [M0, M1, M2, 預測式, 敏捷, 混合式]
 - [T-05 專案章程與啟動](../theory/T-05-project-charter.md)
 - [P-16 新手 PM 的冒牌者感與討好傾向](../psychology/P-16-rookie-pm-traps.md)
 - [遇到問題查這裡](../troubleshoot.md)
+- [教案：新任 PM 上工前速讀](../teach/lesson-first-week-pm.md)

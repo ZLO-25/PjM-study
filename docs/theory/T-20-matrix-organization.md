@@ -97,3 +97,4 @@ tags: [M8, 預測式, 敏捷, 混合式]
 - [T-14 資源規劃與平衡](T-14-resource-planning.md)
 - [T-19 責任分派與 RACI](T-19-raci.md)
 - [P-13 衝突處理模式](../psychology/P-13-conflict-modes.md)
+- [引導練習：跟職能經理借人](../exercises/guide-borrow-resources.md)

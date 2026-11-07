@@ -117,3 +117,4 @@ tags: [M0, M9, PM 自身]
 - [P-03 沒有職權的影響力](P-03-influence-without-authority.md)
 - [T-03 PM 的角色與權力來源](../theory/T-03-pm-role-and-power.md)
 - [W-20 接手專案的前 30 天](../practice/W-20-first-30-days.md)
+- [教案：新任 PM 上工前速讀](../teach/lesson-first-week-pm.md)

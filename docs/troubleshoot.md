@@ -68,7 +68,7 @@ title: 遇到問題查這裡
 | 對方不歸你管，但你需要他做事 | 找出你能交換的東西：資訊、曝光、減少他的麻煩 | [P-03](psychology/P-03-influence-without-authority.md)、[T-03](theory/T-03-pm-role-and-power.md) |
 | 不知道該找誰、誰說了算 | 畫一張利害關係人方格，標出權力與關注度 | [T-06](theory/T-06-stakeholder-analysis.md)、[W-02](practice/W-02-stakeholder-register.md) |
 | 兩個部門互推責任 | 填 RACI，一件事只能有一個 A | [T-19](theory/T-19-raci.md)、[W-12](practice/W-12-raci-matrix.md) |
-| 跟職能經理借人借不到 | 帶著資源負荷表與替代方案去談利益，不要去談立場 | [P-04](psychology/P-04-principled-negotiation.md)、[T-20](theory/T-20-matrix-organization.md) |
+| 跟職能經理借人借不到 | 帶著資源負荷表與替代方案去談利益，不要去談立場 | [引導練習](exercises/guide-borrow-resources.md)、[P-04](psychology/P-04-principled-negotiation.md)、[T-20](theory/T-20-matrix-organization.md) |
 | 利害關係人太多，顧不過來 | 依方格分三種溝通頻率；不是每個人都要每週收到報告 | [T-07](theory/T-07-stakeholder-engagement.md)、[T-21](theory/T-21-communication-planning.md) |
 | 跨廠區、跨時區的團隊各做各的 | 定一份溝通計畫：誰、何時、用什麼管道、收到什麼 | [T-21](theory/T-21-communication-planning.md)、[C-10](cases/C-10-sim-multi-site-buildout.md) |
 
