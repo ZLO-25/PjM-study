@@ -1,0 +1,27 @@
+/* docs/stylesheets/extra.css */
+/* ASCII 圖解：等寬字型 + 中文後備字型，並允許手機橫向捲動而不撐破版面 */
+.md-typeset pre > code {
+  font-family: "Roboto Mono", "Noto Sans Mono CJK TC", "Sarasa Mono TC",
+    "MingLiU", "Menlo", "Consolas", monospace;
+  line-height: 1.4;
+}
+.md-typeset pre {
+  overflow-x: auto;
+}
+
+/* 搭配 javascripts/ascii-align.js：固定字元寬度，讓 ASCII 圖在中英混排時對齊 */
+.ascii-w2,
+.ascii-w1 {
+  display: inline-block;
+  text-align: center;
+  overflow: visible;
+}
+.ascii-w2 { width: 2ch; }
+.ascii-w1 { width: 1ch; }
+
+/* 手機上把 60 欄寬的 ASCII 圖縮到剛好放得下，不需要橫向捲動 */
+@media screen and (max-width: 600px) {
+  .md-typeset code.ascii-block {
+    font-size: min(0.85em, calc((100vw - 3.5rem) / 36));
+  }
+}
