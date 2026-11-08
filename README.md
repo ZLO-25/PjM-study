@@ -5,5 +5,5 @@
 - 網站：https://zlo-25.github.io/PjM-study/
 - 本機預覽：`pip install -r requirements.txt && mkdocs serve`
 - 離線版：`mkdocs build -f mkdocs-offline.yml -d site-offline`，開啟 `site-offline/index.html`
-- 部署：推到 `main` 後，GitHub Actions 會以嚴格模式建置並發布到 `gh-pages` 分支。
+- 部署：推到 `main` 後，GitHub Actions 會以嚴格模式建置並直接發布到 GitHub Pages（Pages 的 Source 要設為 GitHub Actions）。
 - 編號總表：`numbering-master.md`
